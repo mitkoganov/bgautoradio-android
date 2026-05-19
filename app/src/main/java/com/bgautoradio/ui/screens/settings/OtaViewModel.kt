@@ -162,6 +162,7 @@ class OtaViewModel @Inject constructor(
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK)
         }
         context.startActivity(intent)
+        android.os.Process.killProcess(android.os.Process.myPid())
     }
 
     private fun compareVersions(a: String, b: String): Int {
