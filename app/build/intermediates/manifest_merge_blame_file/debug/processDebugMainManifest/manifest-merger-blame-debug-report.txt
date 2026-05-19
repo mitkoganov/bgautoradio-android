@@ -1,0 +1,495 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bgautoradio.debug"
+4    android:versionCode="1"
+5    android:versionName="1.0.0-debug" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Network -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <!-- Location for weather widget -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:9:5-81
+16-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:10:5-79
+17-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:10:22-76
+18
+19    <!-- Foreground service for playback -->
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:13:5-77
+20-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+21-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:14:5-92
+21-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:14:22-89
+22
+23    <!-- Keep screen awake during playback (optional, controlled by setting) -->
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:17:5-68
+24-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:17:22-65
+25
+26    <!-- Post notifications (Android 13+) -->
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:20:5-77
+27-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:20:22-74
+28
+29    <!-- Boot receiver for auto-start -->
+30    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+30-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:23:5-81
+30-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:23:22-78
+31
+32    <!-- OTA: install downloaded APK -->
+33    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+33-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:26:5-83
+33-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:26:22-80
+34
+35    <!-- Show all installed apps in preset picker -->
+36    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+36-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:29:5-77
+36-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:29:22-74
+37
+38    <!-- Floating rail overlay above other apps -->
+39    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+39-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:32:5-78
+39-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:32:22-75
+40
+41    <queries>
+41-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:27:5-32:15
+42        <package android:name="com.spotify.music" />
+42-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:28:9-53
+42-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:28:18-50
+43        <package android:name="com.spotify.music.debug" />
+43-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:29:9-59
+43-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:29:18-56
+44        <package android:name="com.spotify.music.canary" />
+44-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:30:9-60
+44-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:30:18-57
+45        <package android:name="com.spotify.music.partners" />
+45-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:31:9-62
+45-->[spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:31:18-59
+46
+47        <intent>
+47-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:28:9-30:18
+48            <action android:name="android.support.customtabs.action.CustomTabsService" />
+48-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:29:13-90
+48-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:29:21-87
+49        </intent>
+50        <intent>
+50-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:37:9-41:18
+51            <action android:name="com.spotify.sso.action.START_AUTH_FLOW" />
+51-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:38:13-77
+51-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:38:21-74
+52
+53            <data android:mimeType="text/plain" />
+53-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:17-74
+54        </intent>
+55    </queries>
+56
+57    <permission
+57-->[androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+58        android:name="com.bgautoradio.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.bgautoradio.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+62
+63    <supports-screens
+63-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+64        android:anyDensity="true"
+64-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+65        android:largeScreens="true"
+65-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+66        android:normalScreens="true" />
+66-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+67
+68    <uses-feature
+68-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+69        android:name="android.hardware.location.network"
+69-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+70        android:required="false" />
+70-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+71    <uses-feature
+71-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+72        android:name="android.hardware.location.gps"
+72-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+73        android:required="false" />
+73-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+74    <uses-feature
+74-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+75        android:name="android.hardware.telephony"
+75-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+76        android:required="false" />
+76-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+77    <uses-feature
+77-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+78        android:name="android.hardware.wifi"
+78-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+79        android:required="false" />
+79-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+80
+81    <application
+81-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:34:5-151:19
+82        android:name="com.bgautoradio.BulgarianAutoRadioApp"
+82-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:35:9-46
+83        android:allowBackup="true"
+83-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:36:9-35
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+85        android:debuggable="true"
+86        android:extractNativeLibs="false"
+87        android:hardwareAccelerated="true"
+87-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:42:9-43
+88        android:icon="@mipmap/ic_launcher"
+88-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:37:9-43
+89        android:label="@string/app_name"
+89-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:38:9-41
+90        android:largeHeap="true"
+90-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:43:9-33
+91        android:networkSecurityConfig="@xml/network_security_config"
+91-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:45:9-69
+92        android:roundIcon="@mipmap/ic_launcher_round"
+92-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:39:9-54
+93        android:supportsRtl="true"
+93-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:40:9-35
+94        android:theme="@style/Theme.BulgarianAutoRadio"
+94-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:41:9-56
+95        android:usesCleartextTraffic="true" >
+95-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:44:9-44
+96
+97        <!-- Android Auto / CarlinKit media browser declaration -->
+98        <meta-data
+98-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:48:9-50:58
+99            android:name="com.google.android.gms.car.application"
+99-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:49:13-66
+100            android:resource="@xml/automotive_app_desc" />
+100-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:50:13-56
+101
+102        <!-- Splash screen theme -->
+103        <meta-data
+103-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:53:9-55:36
+104            android:name="androidx.core.splashscreen.SPLASHSCREEN_DURATION"
+104-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:54:13-76
+105            android:value="1200" />
+105-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:55:13-33
+106
+107        <activity
+107-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:57:9-88:20
+108            android:name="com.bgautoradio.MainActivity"
+108-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:58:13-41
+109            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+109-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:61:13-98
+110            android:exported="true"
+110-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:59:13-36
+111            android:launchMode="singleTask"
+111-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:63:13-44
+112            android:resizeableActivity="true"
+112-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:64:13-46
+113            android:screenOrientation="landscape"
+113-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:60:13-50
+114            android:theme="@style/Theme.BulgarianAutoRadio.Splash"
+114-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:65:13-67
+115            android:windowSoftInputMode="adjustNothing" >
+115-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:62:13-56
+116            <intent-filter>
+116-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:67:13-72:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:68:17-69
+117-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:68:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:69:17-77
+119-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:69:27-74
+120                <category android:name="android.intent.category.HOME" />
+120-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:70:17-73
+120-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:70:27-70
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:17-76
+121-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:27-73
+122            </intent-filter>
+123
+124            <!-- Deep link: bgautoradio://play?id=station_id -->
+125            <intent-filter>
+125-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:75:13-79:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:17-69
+126-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:17-76
+128-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:27-73
+129
+130                <data
+130-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:17-74
+131                    android:host="play"
+131-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:52-71
+132                    android:scheme="bgautoradio" />
+132-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:23-51
+133            </intent-filter>
+134
+135            <!-- Spotify OAuth callback: bgautoradio://callback -->
+136            <intent-filter>
+136-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:82:13-87:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:17-69
+137-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:17-76
+139-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:85:17-78
+140-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:85:27-75
+141
+142                <data
+142-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:17-74
+143                    android:host="spotify-callback"
+143-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:52-71
+144                    android:scheme="bgautoradio" />
+144-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:23-51
+145            </intent-filter>
+146        </activity>
+147
+148        <!-- Media3 Playback Service -->
+149        <service
+149-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:91:9-101:19
+150            android:name="com.bgautoradio.playback.RadioPlaybackService"
+150-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:92:13-58
+151            android:exported="true"
+151-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:93:13-36
+152            android:foregroundServiceType="mediaPlayback"
+152-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:94:13-58
+153            android:stopWithTask="false" >
+153-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:95:13-41
+154            <intent-filter>
+154-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:96:13-100:29
+155                <action android:name="androidx.media3.session.MediaSessionService" />
+155-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:97:17-86
+155-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:97:25-83
+156                <action android:name="androidx.media3.session.MediaLibraryService" />
+156-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:98:17-86
+156-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:98:25-83
+157                <action android:name="android.media.browse.MediaBrowserService" />
+157-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:99:17-83
+157-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:99:25-80
+158            </intent-filter>
+159        </service>
+160
+161        <!-- Waze notification listener -->
+162        <service
+162-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:104:9-111:19
+163            android:name="com.bgautoradio.service.WazeNotificationService"
+163-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:105:13-60
+164            android:exported="true"
+164-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:106:13-36
+165            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+165-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:107:13-87
+166            <intent-filter>
+166-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:108:13-110:29
+167                <action android:name="android.service.notification.NotificationListenerService" />
+167-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:109:17-99
+167-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:109:25-96
+168            </intent-filter>
+169        </service>
+170
+171        <!-- Floating rail overlay service -->
+172        <service
+172-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:114:9-117:58
+173            android:name="com.bgautoradio.ui.overlay.FloatingRailService"
+173-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:115:13-59
+174            android:exported="false"
+174-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:116:13-37
+175            android:foregroundServiceType="specialUse" />
+175-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:117:13-55
+176
+177        <!-- Debug: simulate Waze alert via ADB broadcast -->
+178        <receiver
+178-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:120:9-127:20
+179            android:name="com.bgautoradio.debug.WazeTestReceiver"
+179-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:121:13-51
+180            android:enabled="true"
+180-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:122:13-35
+181            android:exported="true" >
+181-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:123:13-36
+182            <intent-filter>
+182-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:124:13-126:29
+183                <action android:name="com.bgautoradio.WAZE_TEST" />
+183-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:125:17-68
+183-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:125:25-65
+184            </intent-filter>
+185        </receiver>
+186
+187        <!-- Boot receiver -->
+188        <receiver
+188-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:130:9-138:20
+189            android:name="com.bgautoradio.receiver.BootReceiver"
+189-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:131:13-50
+190            android:enabled="true"
+190-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:132:13-35
+191            android:exported="true" >
+191-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:133:13-36
+192            <intent-filter>
+192-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:134:13-137:29
+193                <action android:name="android.intent.action.BOOT_COMPLETED" />
+193-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:135:17-79
+193-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:135:25-76
+194                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+194-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:136:17-84
+194-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:136:25-81
+195            </intent-filter>
+196        </receiver>
+197
+198        <!-- FileProvider for OTA APK install -->
+199        <provider
+200            android:name="androidx.core.content.FileProvider"
+200-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:142:13-62
+201            android:authorities="com.bgautoradio.debug.fileprovider"
+201-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:143:13-64
+202            android:exported="false"
+202-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:144:13-37
+203            android:grantUriPermissions="true" >
+203-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:145:13-47
+204            <meta-data
+204-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:146:13-148:54
+205                android:name="android.support.FILE_PROVIDER_PATHS"
+205-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:147:17-67
+206                android:resource="@xml/file_paths" />
+206-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:148:17-51
+207        </provider>
+208
+209        <activity
+209-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:47:9-61:20
+210            android:name="com.spotify.sdk.android.auth.browser.RedirectUriReceiverActivity"
+210-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:48:13-92
+211            android:exported="true"
+211-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:49:13-36
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+212-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:50:13-72
+213            <intent-filter android:autoVerify="true" >
+213-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:82:13-87:29
+214                <action android:name="android.intent.action.VIEW" />
+214-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:17-69
+214-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:25-66
+215
+216                <category android:name="android.intent.category.DEFAULT" />
+216-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:17-76
+216-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:27-73
+217                <category android:name="android.intent.category.BROWSABLE" />
+217-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:85:17-78
+217-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:85:27-75
+218
+219                <data
+219-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:17-74
+220                    android:host="spotify-callback"
+220-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:52-71
+221                    android:scheme="bgautoradio" />
+221-->C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:23-51
+222            </intent-filter>
+223        </activity>
+224        <activity
+224-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:62:9-67:75
+225            android:name="com.spotify.sdk.android.auth.LoginActivity"
+225-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:63:13-70
+226            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
+226-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:64:13-115
+227            android:exported="false"
+227-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:65:13-37
+228            android:launchMode="singleTask"
+228-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:66:13-44
+229            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+229-->[com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:67:13-72
+230        <activity
+230-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+231            android:name="androidx.compose.ui.tooling.PreviewActivity"
+231-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+232            android:exported="true" />
+232-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+233
+234        <provider
+234-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:24:9-32:20
+235            android:name="androidx.startup.InitializationProvider"
+235-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:25:13-67
+236            android:authorities="com.bgautoradio.debug.androidx-startup"
+236-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:26:13-68
+237            android:exported="false" >
+237-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:27:13-37
+238            <meta-data
+238-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:29:13-31:52
+239                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+239-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:30:17-78
+240                android:value="androidx.startup" />
+240-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:31:17-49
+241            <meta-data
+241-->[androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+242                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+242-->[androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+243                android:value="androidx.startup" />
+243-->[androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+244            <meta-data
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+245                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+246                android:value="androidx.startup" />
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+247        </provider>
+248
+249        <service
+249-->[androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+250            android:name="androidx.room.MultiInstanceInvalidationService"
+250-->[androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+251            android:directBootAware="true"
+251-->[androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+252            android:exported="false" />
+252-->[androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+253
+254        <receiver
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+255            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+256            android:directBootAware="false"
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+257            android:enabled="true"
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+258            android:exported="true"
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+259            android:permission="android.permission.DUMP" >
+259-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+260            <intent-filter>
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+261                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+262            </intent-filter>
+263            <intent-filter>
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+264                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+265            </intent-filter>
+266            <intent-filter>
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+267                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+268            </intent-filter>
+269            <intent-filter>
+269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+270                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+271            </intent-filter>
+272        </receiver>
+273    </application>
+274
+275</manifest>

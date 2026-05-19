@@ -1,0 +1,791 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:141:9-149:20
+	android:grantUriPermissions
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:145:13-47
+	android:authorities
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:143:13-64
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:144:13-37
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:142:13-62
+manifest
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:2:1-152:12
+MERGED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:22:1-36:12
+MERGED from [io.coil-kt:coil-svg:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\29112a580ca8d05daaa4008089b9b097\transformed\coil-svg-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\9459b04042cd27fba2c095b4438e0aea\transformed\coil-compose-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f1c4c294e8aaa242524882f800cf0795\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\6972a68353625876697c8579f5d41681\transformed\coil-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f1ccb1d8d19c426282adbf0e0ab947ce\transformed\coil-base-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\47236beb2a4aa75406c74ad3e6638966\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\1c5e074aae242e3a46a265ddb7d8c221\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\0b74c4279f4dae736914487902c7fb71\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\a4ab145a18e2dd26f20a1af1e8505313\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\m.ganov\.gradle\caches\transforms-4\98e18b8d9240be44e6e031678d10e39f\transformed\hilt-android-2.51.1\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\m.ganov\.gradle\caches\transforms-4\b8f2c3b3db321428028d871e73bc0221\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-session:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ff390cef1f9e803ac40a1794005548bb\transformed\media3-session-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-ui:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\d5832f896cb485947bc1f9ce21d288f7\transformed\media3-ui-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-extractor:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\059bc503423f3d1db74d945d08a5d6a4\transformed\media3-extractor-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\31b21ac5483ebc54be95820937bd020f\transformed\media3-container-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3b71920c6740f94229ef6d8c3dd1f7a3\transformed\media3-datasource-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ff3611a356654c7221c5e65ce01c161a\transformed\media3-decoder-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\4d57609c290bfa651b99d92dd6b15d8c\transformed\media3-database-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\7d5280445597ed756cd65938e63ba353\transformed\media3-common-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\b210fed91c2632da7cad2e70f777f771\transformed\media3-exoplayer-hls-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\229664df83e9f9465a602d5dfd64a6d6\transformed\media3-exoplayer-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:22:1-70:12
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\m.ganov\.gradle\caches\transforms-4\2288b0895a90d27118ce3b65b9e6ef89\transformed\browser-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\cbacaadf8c1328e614d6a36e662b2718\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e95d428ccc02124c3673d196fdb951d3\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\dc9a06d28e155ed22bec2d5b49d356bd\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\76469175cc4bb8e24c7e4fd0a1380d71\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\81055127c19d0d32c6d80c45bf772e92\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\f7214e030e841b8a2b37a1ac44af6ce0\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\5e564a7291ef83596ee8b65911958917\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\c4adc00eb0409a9b4fc206e2c35d86d4\transformed\activity-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3ed75b9c4e1dc560ba77173196a8b391\transformed\activity-1.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\d108aa6c3850050be112326f9243bc8c\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\f977c0983b9478227e862a6b41c17cc7\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\82a516db30d4ef0f63da9e67ee120985\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\9ff4460845247b746157dadd86c24cd3\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\4dd4ed3bdff422c24abef8286bc577b2\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\3bcf5caf83c7bf87084782e8b30778f1\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\83817134f5f30e1eee3ad518bded8558\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\c2cdff5f3befaa43823c61bcac048182\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\87356b3ef990c4d7f3c6366f8f86edd7\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\bb2ecadb12f0545dae7a98034f379cfa\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\36fec59f6774085c0f5aceb245cd6f62\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\6976ab57f6e7397ece52b05fdad80a58\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\bb40e347169d07cc8539f91187ae2856\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\e3e64368c6eb6cc09f837c006498e3a0\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\548302db55bb88eb700ae5e3cf61f475\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\14fb306e9206c04adb15592c6e03f0a2\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3601bc6a9f8095cc7401b63bee497a94\transformed\activity-compose-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\9c4d45f8636d0d5b0f77471f69a9074c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\a847dbdd5d9a7de42eaf3c47074cebac\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\26cfe07d9caa3381b23fa37d75491db5\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\720a01336c601c7bd388345cf792f5e5\transformed\lifecycle-livedata-core-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\2d09ef3b226c1fd707f2db9494e0d0b3\transformed\lifecycle-viewmodel-2.8.2\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\dcdefccb5a0c93dd05093258aa3ac118\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\3c660a0f65ce1c61921142ba5cbe2b7a\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\d4ac74a486ec71386c1a192b0fccc2b1\transformed\lifecycle-livedata-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\4fc294029692b7827b5271fa27ff1283\transformed\lifecycle-viewmodel-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\b751130e381c964de200c19c7a7ba48f\transformed\lifecycle-viewmodel-savedstate-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\e84cd742119b4fb82f774ee24f30eeff\transformed\lifecycle-livedata-core-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\19fe552d11fa0c0d32cb50e3688c82f3\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a48d6680f35da9d04de952ff830601c2\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\2d1a9d46043c61339d714ca618781d6b\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\m.ganov\.gradle\caches\transforms-4\eedcf8c39050316b6f5f07193e829718\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\11d9d981a467c4ebcb1fe1725ae74bd4\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.media:media:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\be5a2957d1f3c268dddf26f6116f97f9\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\d0873b1516eb7d61529d0dbf944b6332\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e1ef8cd8005d7f9a5801611b5a554dff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\m.ganov\.gradle\caches\transforms-4\42cb76615fc260bad9f8410063621ae2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\324004c8898499eca6c0d33731aa7d21\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\08fe962718d3793d4025cbf83542b274\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\611ced2506c9012362acc3fd9de50a37\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\949d5e48de5eabaef87ab479889f594c\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8cb683e45f7b48014553897e3adaede7\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\m.ganov\.gradle\caches\transforms-4\cb36ddfff08b707d96f6acd02563a97f\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\9d45f84b47efe2ff3cc36f7c5fe968b0\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\4b2b1b0b5f24ef25a1ce1d26c3e63693\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\beace54ed52ed7cb4bb9f7ea6f3027ee\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\f2576444b7e0afbc9e8a9350d0449bbc\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\f4dea92bf859cc1517d878af19157100\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\0a34c05bbfbaf517b82a6b8ad48c9afc\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\18a0c7aacdceeb7ccdd7e4b94dd633fb\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\115f735ef14abe8578d38966ae66f3b2\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\2f41b6b6124b9ef93a0361296b7dd404\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\0a87b748c103ad153b651fcfc5ec6c0f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e486ed8806d74a28e9e899ae8440b575\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ca6772af15908dff3cef9b3bbbcf915e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\55b73ef584284388ea14ecbcc694bd1e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\dc498f46f291aa74fe09bb4c738ce308\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\m.ganov\.gradle\caches\transforms-4\ed62f8e50abc6c84089cc2cfc262af25\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\m.ganov\.gradle\caches\transforms-4\639eb3174aa44e739ead0f14c474ba6e\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:16:1-19:12
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\m.ganov\.gradle\caches\transforms-4\fe763906c677a40f288c9f836ac1472a\transformed\androidsvg-aar-1.4\AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:44:5-67
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:44:5-67
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\7d5280445597ed756cd65938e63ba353\transformed\media3-common-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\7d5280445597ed756cd65938e63ba353\transformed\media3-common-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\229664df83e9f9465a602d5dfd64a6d6\transformed\media3-exoplayer-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\229664df83e9f9465a602d5dfd64a6d6\transformed\media3-exoplayer-1.4.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:14:5-92
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:14:22-89
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:20:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:26:5-83
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:26:22-80
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:29:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:32:22-75
+application
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:34:5-151:19
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:34:5-151:19
+MERGED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:34:5-20
+MERGED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:34:5-20
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:46:5-68:19
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:46:5-68:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\55b73ef584284388ea14ecbcc694bd1e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\55b73ef584284388ea14ecbcc694bd1e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:40:9-35
+	android:label
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:38:9-41
+	android:hardwareAccelerated
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:42:9-43
+	android:roundIcon
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:39:9-54
+	android:largeHeap
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:43:9-33
+	android:icon
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:37:9-43
+	android:allowBackup
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:41:9-56
+	android:networkSecurityConfig
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:45:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:44:9-44
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:35:9-46
+meta-data#com.google.android.gms.car.application
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:48:9-50:58
+	android:resource
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:49:13-66
+meta-data#androidx.core.splashscreen.SPLASHSCREEN_DURATION
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:53:9-55:36
+	android:value
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:55:13-33
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:54:13-76
+activity#com.bgautoradio.MainActivity
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:57:9-88:20
+	android:screenOrientation
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:60:13-50
+	android:launchMode
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:63:13-44
+	android:windowSoftInputMode
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:62:13-56
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:59:13-36
+	android:resizeableActivity
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:64:13-46
+	android:configChanges
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:61:13-98
+	android:theme
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:65:13-67
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:58:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:67:13-72:29
+action#android.intent.action.MAIN
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:68:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:69:27-74
+category#android.intent.category.HOME
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:70:17-73
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:70:27-70
+category#android.intent.category.DEFAULT
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:17-76
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:71:27-73
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:play+data:scheme:bgautoradio
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:75:13-79:29
+action#android.intent.action.VIEW
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:76:25-66
+data
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:17-74
+	android:host
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:52-71
+	android:scheme
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:78:23-51
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:spotify-callback+data:scheme:bgautoradio
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:82:13-87:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:85:17-78
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:85:27-75
+service#com.bgautoradio.playback.RadioPlaybackService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:91:9-101:19
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:93:13-36
+	android:stopWithTask
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:95:13-41
+	android:foregroundServiceType
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:94:13-58
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:92:13-58
+intent-filter#action:name:android.media.browse.MediaBrowserService+action:name:androidx.media3.session.MediaLibraryService+action:name:androidx.media3.session.MediaSessionService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:96:13-100:29
+action#androidx.media3.session.MediaSessionService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:97:17-86
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:97:25-83
+action#androidx.media3.session.MediaLibraryService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:98:17-86
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:98:25-83
+action#android.media.browse.MediaBrowserService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:99:17-83
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:99:25-80
+service#com.bgautoradio.service.WazeNotificationService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:104:9-111:19
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:106:13-36
+	android:permission
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:107:13-87
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:105:13-60
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:108:13-110:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:109:17-99
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:109:25-96
+service#com.bgautoradio.ui.overlay.FloatingRailService
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:114:9-117:58
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:116:13-37
+	android:foregroundServiceType
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:117:13-55
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:115:13-59
+receiver#com.bgautoradio.debug.WazeTestReceiver
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:120:9-127:20
+	android:enabled
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:122:13-35
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:123:13-36
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:121:13-51
+intent-filter#action:name:com.bgautoradio.WAZE_TEST
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:124:13-126:29
+action#com.bgautoradio.WAZE_TEST
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:125:17-68
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:125:25-65
+receiver#com.bgautoradio.receiver.BootReceiver
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:130:9-138:20
+	android:enabled
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:132:13-35
+	android:exported
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:133:13-36
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:131:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:134:13-137:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:135:17-79
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:135:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:136:17-84
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:136:25-81
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:146:13-148:54
+	android:resource
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:148:17-51
+	android:name
+		ADDED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml:147:17-67
+uses-sdk
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+MERGED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:25:5-44
+MERGED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:25:5-44
+MERGED from [io.coil-kt:coil-svg:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\29112a580ca8d05daaa4008089b9b097\transformed\coil-svg-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-svg:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\29112a580ca8d05daaa4008089b9b097\transformed\coil-svg-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\9459b04042cd27fba2c095b4438e0aea\transformed\coil-compose-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\9459b04042cd27fba2c095b4438e0aea\transformed\coil-compose-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f1c4c294e8aaa242524882f800cf0795\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f1c4c294e8aaa242524882f800cf0795\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\6972a68353625876697c8579f5d41681\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\6972a68353625876697c8579f5d41681\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f1ccb1d8d19c426282adbf0e0ab947ce\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f1ccb1d8d19c426282adbf0e0ab947ce\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\47236beb2a4aa75406c74ad3e6638966\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\47236beb2a4aa75406c74ad3e6638966\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\1c5e074aae242e3a46a265ddb7d8c221\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\1c5e074aae242e3a46a265ddb7d8c221\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\0b74c4279f4dae736914487902c7fb71\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\0b74c4279f4dae736914487902c7fb71\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\a4ab145a18e2dd26f20a1af1e8505313\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\a4ab145a18e2dd26f20a1af1e8505313\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\m.ganov\.gradle\caches\transforms-4\98e18b8d9240be44e6e031678d10e39f\transformed\hilt-android-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\m.ganov\.gradle\caches\transforms-4\98e18b8d9240be44e6e031678d10e39f\transformed\hilt-android-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\m.ganov\.gradle\caches\transforms-4\b8f2c3b3db321428028d871e73bc0221\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\m.ganov\.gradle\caches\transforms-4\b8f2c3b3db321428028d871e73bc0221\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-session:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ff390cef1f9e803ac40a1794005548bb\transformed\media3-session-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-session:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ff390cef1f9e803ac40a1794005548bb\transformed\media3-session-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\d5832f896cb485947bc1f9ce21d288f7\transformed\media3-ui-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\d5832f896cb485947bc1f9ce21d288f7\transformed\media3-ui-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\059bc503423f3d1db74d945d08a5d6a4\transformed\media3-extractor-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\059bc503423f3d1db74d945d08a5d6a4\transformed\media3-extractor-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\31b21ac5483ebc54be95820937bd020f\transformed\media3-container-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\31b21ac5483ebc54be95820937bd020f\transformed\media3-container-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3b71920c6740f94229ef6d8c3dd1f7a3\transformed\media3-datasource-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3b71920c6740f94229ef6d8c3dd1f7a3\transformed\media3-datasource-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ff3611a356654c7221c5e65ce01c161a\transformed\media3-decoder-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ff3611a356654c7221c5e65ce01c161a\transformed\media3-decoder-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\4d57609c290bfa651b99d92dd6b15d8c\transformed\media3-database-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\4d57609c290bfa651b99d92dd6b15d8c\transformed\media3-database-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\7d5280445597ed756cd65938e63ba353\transformed\media3-common-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\7d5280445597ed756cd65938e63ba353\transformed\media3-common-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\b210fed91c2632da7cad2e70f777f771\transformed\media3-exoplayer-hls-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\b210fed91c2632da7cad2e70f777f771\transformed\media3-exoplayer-hls-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\229664df83e9f9465a602d5dfd64a6d6\transformed\media3-exoplayer-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\229664df83e9f9465a602d5dfd64a6d6\transformed\media3-exoplayer-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:25:5-44
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:25:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\m.ganov\.gradle\caches\transforms-4\2288b0895a90d27118ce3b65b9e6ef89\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\m.ganov\.gradle\caches\transforms-4\2288b0895a90d27118ce3b65b9e6ef89\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\cbacaadf8c1328e614d6a36e662b2718\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\cbacaadf8c1328e614d6a36e662b2718\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e95d428ccc02124c3673d196fdb951d3\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e95d428ccc02124c3673d196fdb951d3\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\dc9a06d28e155ed22bec2d5b49d356bd\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\dc9a06d28e155ed22bec2d5b49d356bd\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\76469175cc4bb8e24c7e4fd0a1380d71\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\76469175cc4bb8e24c7e4fd0a1380d71\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\81055127c19d0d32c6d80c45bf772e92\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\81055127c19d0d32c6d80c45bf772e92\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\f7214e030e841b8a2b37a1ac44af6ce0\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\f7214e030e841b8a2b37a1ac44af6ce0\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\5e564a7291ef83596ee8b65911958917\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\m.ganov\.gradle\caches\transforms-4\5e564a7291ef83596ee8b65911958917\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\c4adc00eb0409a9b4fc206e2c35d86d4\transformed\activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\c4adc00eb0409a9b4fc206e2c35d86d4\transformed\activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3ed75b9c4e1dc560ba77173196a8b391\transformed\activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3ed75b9c4e1dc560ba77173196a8b391\transformed\activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\d108aa6c3850050be112326f9243bc8c\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\d108aa6c3850050be112326f9243bc8c\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\f977c0983b9478227e862a6b41c17cc7\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\f977c0983b9478227e862a6b41c17cc7\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\82a516db30d4ef0f63da9e67ee120985\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\82a516db30d4ef0f63da9e67ee120985\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\9ff4460845247b746157dadd86c24cd3\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\9ff4460845247b746157dadd86c24cd3\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\4dd4ed3bdff422c24abef8286bc577b2\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\4dd4ed3bdff422c24abef8286bc577b2\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\3bcf5caf83c7bf87084782e8b30778f1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\3bcf5caf83c7bf87084782e8b30778f1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\83817134f5f30e1eee3ad518bded8558\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\83817134f5f30e1eee3ad518bded8558\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\c2cdff5f3befaa43823c61bcac048182\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\c2cdff5f3befaa43823c61bcac048182\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\87356b3ef990c4d7f3c6366f8f86edd7\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\87356b3ef990c4d7f3c6366f8f86edd7\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\bb2ecadb12f0545dae7a98034f379cfa\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\bb2ecadb12f0545dae7a98034f379cfa\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\36fec59f6774085c0f5aceb245cd6f62\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\36fec59f6774085c0f5aceb245cd6f62\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\6976ab57f6e7397ece52b05fdad80a58\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\6976ab57f6e7397ece52b05fdad80a58\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\bb40e347169d07cc8539f91187ae2856\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\bb40e347169d07cc8539f91187ae2856\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\e3e64368c6eb6cc09f837c006498e3a0\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\e3e64368c6eb6cc09f837c006498e3a0\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\548302db55bb88eb700ae5e3cf61f475\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\548302db55bb88eb700ae5e3cf61f475\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\14fb306e9206c04adb15592c6e03f0a2\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\14fb306e9206c04adb15592c6e03f0a2\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3601bc6a9f8095cc7401b63bee497a94\transformed\activity-compose-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\m.ganov\.gradle\caches\transforms-4\3601bc6a9f8095cc7401b63bee497a94\transformed\activity-compose-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\9c4d45f8636d0d5b0f77471f69a9074c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\9c4d45f8636d0d5b0f77471f69a9074c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\a847dbdd5d9a7de42eaf3c47074cebac\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\a847dbdd5d9a7de42eaf3c47074cebac\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\26cfe07d9caa3381b23fa37d75491db5\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\m.ganov\.gradle\caches\transforms-4\26cfe07d9caa3381b23fa37d75491db5\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\720a01336c601c7bd388345cf792f5e5\transformed\lifecycle-livedata-core-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\720a01336c601c7bd388345cf792f5e5\transformed\lifecycle-livedata-core-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\2d09ef3b226c1fd707f2db9494e0d0b3\transformed\lifecycle-viewmodel-2.8.2\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\2d09ef3b226c1fd707f2db9494e0d0b3\transformed\lifecycle-viewmodel-2.8.2\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\dcdefccb5a0c93dd05093258aa3ac118\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\dcdefccb5a0c93dd05093258aa3ac118\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\3c660a0f65ce1c61921142ba5cbe2b7a\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\3c660a0f65ce1c61921142ba5cbe2b7a\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\d4ac74a486ec71386c1a192b0fccc2b1\transformed\lifecycle-livedata-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\d4ac74a486ec71386c1a192b0fccc2b1\transformed\lifecycle-livedata-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\4fc294029692b7827b5271fa27ff1283\transformed\lifecycle-viewmodel-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\4fc294029692b7827b5271fa27ff1283\transformed\lifecycle-viewmodel-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\b751130e381c964de200c19c7a7ba48f\transformed\lifecycle-viewmodel-savedstate-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\b751130e381c964de200c19c7a7ba48f\transformed\lifecycle-viewmodel-savedstate-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\e84cd742119b4fb82f774ee24f30eeff\transformed\lifecycle-livedata-core-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\e84cd742119b4fb82f774ee24f30eeff\transformed\lifecycle-livedata-core-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\19fe552d11fa0c0d32cb50e3688c82f3\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\19fe552d11fa0c0d32cb50e3688c82f3\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a48d6680f35da9d04de952ff830601c2\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a48d6680f35da9d04de952ff830601c2\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\2d1a9d46043c61339d714ca618781d6b\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\2d1a9d46043c61339d714ca618781d6b\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\m.ganov\.gradle\caches\transforms-4\eedcf8c39050316b6f5f07193e829718\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\m.ganov\.gradle\caches\transforms-4\eedcf8c39050316b6f5f07193e829718\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\11d9d981a467c4ebcb1fe1725ae74bd4\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\11d9d981a467c4ebcb1fe1725ae74bd4\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\be5a2957d1f3c268dddf26f6116f97f9\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\m.ganov\.gradle\caches\transforms-4\be5a2957d1f3c268dddf26f6116f97f9\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\d0873b1516eb7d61529d0dbf944b6332\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\d0873b1516eb7d61529d0dbf944b6332\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e1ef8cd8005d7f9a5801611b5a554dff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e1ef8cd8005d7f9a5801611b5a554dff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\m.ganov\.gradle\caches\transforms-4\42cb76615fc260bad9f8410063621ae2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\m.ganov\.gradle\caches\transforms-4\42cb76615fc260bad9f8410063621ae2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\324004c8898499eca6c0d33731aa7d21\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\324004c8898499eca6c0d33731aa7d21\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\08fe962718d3793d4025cbf83542b274\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\08fe962718d3793d4025cbf83542b274\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\611ced2506c9012362acc3fd9de50a37\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\611ced2506c9012362acc3fd9de50a37\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\949d5e48de5eabaef87ab479889f594c\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\949d5e48de5eabaef87ab479889f594c\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8cb683e45f7b48014553897e3adaede7\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8cb683e45f7b48014553897e3adaede7\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\m.ganov\.gradle\caches\transforms-4\cb36ddfff08b707d96f6acd02563a97f\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\m.ganov\.gradle\caches\transforms-4\cb36ddfff08b707d96f6acd02563a97f\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\9d45f84b47efe2ff3cc36f7c5fe968b0\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\9d45f84b47efe2ff3cc36f7c5fe968b0\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\4b2b1b0b5f24ef25a1ce1d26c3e63693\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\4b2b1b0b5f24ef25a1ce1d26c3e63693\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\beace54ed52ed7cb4bb9f7ea6f3027ee\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\beace54ed52ed7cb4bb9f7ea6f3027ee\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\f2576444b7e0afbc9e8a9350d0449bbc\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\f2576444b7e0afbc9e8a9350d0449bbc\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\f4dea92bf859cc1517d878af19157100\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\f4dea92bf859cc1517d878af19157100\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\0a34c05bbfbaf517b82a6b8ad48c9afc\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\0a34c05bbfbaf517b82a6b8ad48c9afc\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\18a0c7aacdceeb7ccdd7e4b94dd633fb\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\18a0c7aacdceeb7ccdd7e4b94dd633fb\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\115f735ef14abe8578d38966ae66f3b2\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\115f735ef14abe8578d38966ae66f3b2\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\2f41b6b6124b9ef93a0361296b7dd404\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\m.ganov\.gradle\caches\transforms-4\2f41b6b6124b9ef93a0361296b7dd404\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\0a87b748c103ad153b651fcfc5ec6c0f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\0a87b748c103ad153b651fcfc5ec6c0f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e486ed8806d74a28e9e899ae8440b575\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\m.ganov\.gradle\caches\transforms-4\e486ed8806d74a28e9e899ae8440b575\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ca6772af15908dff3cef9b3bbbcf915e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\ca6772af15908dff3cef9b3bbbcf915e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\55b73ef584284388ea14ecbcc694bd1e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\55b73ef584284388ea14ecbcc694bd1e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\dc498f46f291aa74fe09bb4c738ce308\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\m.ganov\.gradle\caches\transforms-4\dc498f46f291aa74fe09bb4c738ce308\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\m.ganov\.gradle\caches\transforms-4\ed62f8e50abc6c84089cc2cfc262af25\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\m.ganov\.gradle\caches\transforms-4\ed62f8e50abc6c84089cc2cfc262af25\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\m.ganov\.gradle\caches\transforms-4\639eb3174aa44e739ead0f14c474ba6e\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\m.ganov\.gradle\caches\transforms-4\639eb3174aa44e739ead0f14c474ba6e\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\m.ganov\.gradle\caches\transforms-4\fe763906c677a40f288c9f836ac1472a\transformed\androidsvg-aar-1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\m.ganov\.gradle\caches\transforms-4\fe763906c677a40f288c9f836ac1472a\transformed\androidsvg-aar-1.4\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\tmp\BulgarianAutoRadio\app\src\main\AndroidManifest.xml
+queries
+ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:27:5-32:15
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:27:5-42:15
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:27:5-42:15
+package#com.spotify.music
+ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:28:9-53
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:32:9-53
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:32:9-53
+	android:name
+		ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:28:18-50
+package#com.spotify.music.debug
+ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:29:9-59
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:33:9-59
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:33:9-59
+	android:name
+		ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:29:18-56
+package#com.spotify.music.canary
+ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:30:9-60
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:34:9-60
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:34:9-60
+	android:name
+		ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:30:18-57
+package#com.spotify.music.partners
+ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:31:9-62
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:35:9-62
+MERGED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:35:9-62
+	android:name
+		ADDED from [spotify-app-remote-release-0.8.0.aar] C:\Users\m.ganov\.gradle\caches\transforms-4\6f1f5aacd24c5a01e8dca22aebc3fc4e\transformed\spotify-app-remote-release-0.8.0\AndroidManifest.xml:31:18-59
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:28:9-30:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:29:13-90
+	android:name
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:29:21-87
+intent#action:name:com.spotify.sso.action.START_AUTH_FLOW+data:mimeType:text/plain
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:37:9-41:18
+action#com.spotify.sso.action.START_AUTH_FLOW
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:38:13-77
+	android:name
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:38:21-74
+activity#com.spotify.sdk.android.auth.browser.RedirectUriReceiverActivity
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:47:9-61:20
+	android:exported
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:49:13-36
+	android:theme
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:48:13-92
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${redirectHostName}+data:scheme:${redirectSchemeName}
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:51:13-60:29
+	android:autoVerify
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:51:28-53
+activity#com.spotify.sdk.android.auth.LoginActivity
+ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:62:9-67:75
+	android:launchMode
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:66:13-44
+	android:exported
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:65:13-37
+	android:configChanges
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:64:13-115
+	android:theme
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:67:13-72
+	android:name
+		ADDED from [com.spotify.android:auth:2.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\8575cc84888fe17980cd51e1f71f70a7\transformed\auth-2.1.1\AndroidManifest.xml:63:13-70
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\m.ganov\.gradle\caches\transforms-4\2aa26dbb7d0e59201ab75fc2c6214631\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\m.ganov\.gradle\caches\transforms-4\bcea5694cc18b5111121660ee851f83d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\m.ganov\.gradle\caches\transforms-4\a8468f21bf1c7b66c8189b105cc60520\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\m.ganov\.gradle\caches\transforms-4\f8d5cff275db0df9bdd641609da660df\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.bgautoradio.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.bgautoradio.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\m.ganov\.gradle\caches\transforms-4\62ab2c69a900e0a522972fe25b0c310b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\m.ganov\.gradle\caches\transforms-4\ee6b80f4fee99f4f7520d6048b94439d\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\m.ganov\.gradle\caches\transforms-4\96246714a96b345d292eaa7db7dae957\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\m.ganov\.gradle\caches\transforms-4\ba6fc888be3c528131bd2ab3a0d71cc7\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme — AppCompat.DayNight is the safe base for Compose + Hilt + SplashScreen -->
+    <style name="Theme.BulgarianAutoRadio" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.BulgarianAutoRadio.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_radio</item>
+        <item name="windowSplashScreenAnimationDuration">1200</item>
+        <item name="postSplashScreenTheme">@style/Theme.BulgarianAutoRadio</item>
+    </style>
+</resources>

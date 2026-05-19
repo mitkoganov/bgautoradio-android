@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color splash_bg
+drawable background
+drawable bg_car_stage_dark
+drawable bg_car_stage_light
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_splash_radio
+drawable magic_fm
+drawable radio_1
+drawable radio_fresh
+drawable radio_vitosha
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string channel_description
+string channel_name
+style Theme.BulgarianAutoRadio
+style Theme.BulgarianAutoRadio.Splash
+xml automotive_app_desc
+xml file_paths
+xml network_security_config
