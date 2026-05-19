@@ -437,52 +437,52 @@ public final class DaggerBulgarianAutoRadioApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_bgautoradio_ui_components_PresetViewModel = "com.bgautoradio.ui.components.PresetViewModel";
-
-      static String com_bgautoradio_ui_screens_stations_StationsViewModel = "com.bgautoradio.ui.screens.stations.StationsViewModel";
-
       static String com_bgautoradio_ui_weather_WeatherViewModel = "com.bgautoradio.ui.weather.WeatherViewModel";
-
-      static String com_bgautoradio_ui_screens_home_HomeViewModel = "com.bgautoradio.ui.screens.home.HomeViewModel";
-
-      static String com_bgautoradio_ui_screens_settings_OtaViewModel = "com.bgautoradio.ui.screens.settings.OtaViewModel";
-
-      static String com_bgautoradio_ui_FontScaleViewModel = "com.bgautoradio.ui.FontScaleViewModel";
-
-      static String com_bgautoradio_ui_screens_settings_SettingsViewModel = "com.bgautoradio.ui.screens.settings.SettingsViewModel";
 
       static String com_bgautoradio_ui_components_SpeedViewModel = "com.bgautoradio.ui.components.SpeedViewModel";
 
+      static String com_bgautoradio_ui_screens_stations_StationsViewModel = "com.bgautoradio.ui.screens.stations.StationsViewModel";
+
+      static String com_bgautoradio_ui_screens_home_HomeViewModel = "com.bgautoradio.ui.screens.home.HomeViewModel";
+
+      static String com_bgautoradio_ui_components_PresetViewModel = "com.bgautoradio.ui.components.PresetViewModel";
+
+      static String com_bgautoradio_ui_FontScaleViewModel = "com.bgautoradio.ui.FontScaleViewModel";
+
       static String com_bgautoradio_ui_screens_navigation_NavigationViewModel = "com.bgautoradio.ui.screens.navigation.NavigationViewModel";
 
+      static String com_bgautoradio_ui_screens_settings_SettingsViewModel = "com.bgautoradio.ui.screens.settings.SettingsViewModel";
+
+      static String com_bgautoradio_ui_screens_settings_OtaViewModel = "com.bgautoradio.ui.screens.settings.OtaViewModel";
+
       static String com_bgautoradio_ui_screens_spotify_SpotifyViewModel = "com.bgautoradio.ui.screens.spotify.SpotifyViewModel";
-
-      @KeepFieldType
-      PresetViewModel com_bgautoradio_ui_components_PresetViewModel2;
-
-      @KeepFieldType
-      StationsViewModel com_bgautoradio_ui_screens_stations_StationsViewModel2;
 
       @KeepFieldType
       WeatherViewModel com_bgautoradio_ui_weather_WeatherViewModel2;
 
       @KeepFieldType
+      SpeedViewModel com_bgautoradio_ui_components_SpeedViewModel2;
+
+      @KeepFieldType
+      StationsViewModel com_bgautoradio_ui_screens_stations_StationsViewModel2;
+
+      @KeepFieldType
       HomeViewModel com_bgautoradio_ui_screens_home_HomeViewModel2;
 
       @KeepFieldType
-      OtaViewModel com_bgautoradio_ui_screens_settings_OtaViewModel2;
+      PresetViewModel com_bgautoradio_ui_components_PresetViewModel2;
 
       @KeepFieldType
       FontScaleViewModel com_bgautoradio_ui_FontScaleViewModel2;
 
       @KeepFieldType
+      NavigationViewModel com_bgautoradio_ui_screens_navigation_NavigationViewModel2;
+
+      @KeepFieldType
       SettingsViewModel com_bgautoradio_ui_screens_settings_SettingsViewModel2;
 
       @KeepFieldType
-      SpeedViewModel com_bgautoradio_ui_components_SpeedViewModel2;
-
-      @KeepFieldType
-      NavigationViewModel com_bgautoradio_ui_screens_navigation_NavigationViewModel2;
+      OtaViewModel com_bgautoradio_ui_screens_settings_OtaViewModel2;
 
       @KeepFieldType
       SpotifyViewModel com_bgautoradio_ui_screens_spotify_SpotifyViewModel2;
@@ -553,46 +553,43 @@ public final class DaggerBulgarianAutoRadioApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_bgautoradio_ui_screens_settings_SettingsViewModel = "com.bgautoradio.ui.screens.settings.SettingsViewModel";
-
-      static String com_bgautoradio_ui_FontScaleViewModel = "com.bgautoradio.ui.FontScaleViewModel";
-
-      static String com_bgautoradio_ui_components_SpeedViewModel = "com.bgautoradio.ui.components.SpeedViewModel";
+      static String com_bgautoradio_ui_screens_navigation_NavigationViewModel = "com.bgautoradio.ui.screens.navigation.NavigationViewModel";
 
       static String com_bgautoradio_ui_components_PresetViewModel = "com.bgautoradio.ui.components.PresetViewModel";
 
-      static String com_bgautoradio_ui_weather_WeatherViewModel = "com.bgautoradio.ui.weather.WeatherViewModel";
-
-      static String com_bgautoradio_ui_screens_navigation_NavigationViewModel = "com.bgautoradio.ui.screens.navigation.NavigationViewModel";
-
       static String com_bgautoradio_ui_screens_stations_StationsViewModel = "com.bgautoradio.ui.screens.stations.StationsViewModel";
+
+      static String com_bgautoradio_ui_FontScaleViewModel = "com.bgautoradio.ui.FontScaleViewModel";
+
+      static String com_bgautoradio_ui_screens_spotify_SpotifyViewModel = "com.bgautoradio.ui.screens.spotify.SpotifyViewModel";
+
+      static String com_bgautoradio_ui_components_SpeedViewModel = "com.bgautoradio.ui.components.SpeedViewModel";
 
       static String com_bgautoradio_ui_screens_home_HomeViewModel = "com.bgautoradio.ui.screens.home.HomeViewModel";
 
       static String com_bgautoradio_ui_screens_settings_OtaViewModel = "com.bgautoradio.ui.screens.settings.OtaViewModel";
 
-      static String com_bgautoradio_ui_screens_spotify_SpotifyViewModel = "com.bgautoradio.ui.screens.spotify.SpotifyViewModel";
+      static String com_bgautoradio_ui_screens_settings_SettingsViewModel = "com.bgautoradio.ui.screens.settings.SettingsViewModel";
 
-      @KeepFieldType
-      SettingsViewModel com_bgautoradio_ui_screens_settings_SettingsViewModel2;
-
-      @KeepFieldType
-      FontScaleViewModel com_bgautoradio_ui_FontScaleViewModel2;
-
-      @KeepFieldType
-      SpeedViewModel com_bgautoradio_ui_components_SpeedViewModel2;
-
-      @KeepFieldType
-      PresetViewModel com_bgautoradio_ui_components_PresetViewModel2;
-
-      @KeepFieldType
-      WeatherViewModel com_bgautoradio_ui_weather_WeatherViewModel2;
+      static String com_bgautoradio_ui_weather_WeatherViewModel = "com.bgautoradio.ui.weather.WeatherViewModel";
 
       @KeepFieldType
       NavigationViewModel com_bgautoradio_ui_screens_navigation_NavigationViewModel2;
 
       @KeepFieldType
+      PresetViewModel com_bgautoradio_ui_components_PresetViewModel2;
+
+      @KeepFieldType
       StationsViewModel com_bgautoradio_ui_screens_stations_StationsViewModel2;
+
+      @KeepFieldType
+      FontScaleViewModel com_bgautoradio_ui_FontScaleViewModel2;
+
+      @KeepFieldType
+      SpotifyViewModel com_bgautoradio_ui_screens_spotify_SpotifyViewModel2;
+
+      @KeepFieldType
+      SpeedViewModel com_bgautoradio_ui_components_SpeedViewModel2;
 
       @KeepFieldType
       HomeViewModel com_bgautoradio_ui_screens_home_HomeViewModel2;
@@ -601,7 +598,10 @@ public final class DaggerBulgarianAutoRadioApp_HiltComponents_SingletonC {
       OtaViewModel com_bgautoradio_ui_screens_settings_OtaViewModel2;
 
       @KeepFieldType
-      SpotifyViewModel com_bgautoradio_ui_screens_spotify_SpotifyViewModel2;
+      SettingsViewModel com_bgautoradio_ui_screens_settings_SettingsViewModel2;
+
+      @KeepFieldType
+      WeatherViewModel com_bgautoradio_ui_weather_WeatherViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
