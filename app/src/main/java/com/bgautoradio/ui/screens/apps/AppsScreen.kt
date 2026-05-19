@@ -46,7 +46,6 @@ fun AppsScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF1A1A2E))
             .padding(horizontal = 12.dp, vertical = 8.dp)
     ) {
         OutlinedTextField(

@@ -80,7 +80,11 @@ fun AppNavigation() {
 
     Box(modifier = Modifier.fillMaxSize().background(Bg0)) {
 
-        if (currentRoute == NavRoute.Home.route) {
+        val showBackground = currentRoute in setOf(
+            NavRoute.Home.route, NavRoute.Channels.route,
+            NavRoute.Spotify.route, NavRoute.Apps.route
+        )
+        if (showBackground) {
             BackgroundImageLayer(if (isDark) darkCarTheme() else lightCarTheme())
         }
 
