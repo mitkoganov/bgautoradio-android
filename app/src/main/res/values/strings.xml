@@ -3,4 +3,5 @@
     <string name="app_name">Bulgarian Auto Radio</string>
     <string name="channel_name">Radio Playback</string>
     <string name="channel_description">Background radio stream playback</string>
+    <string name="waze_accessibility_description">Открива предупреждения на Waze (полиция, камери, инциденти) и ги показва върху BG Auto Radio</string>
 </resources>

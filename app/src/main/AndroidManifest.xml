@@ -110,6 +110,19 @@
             </intent-filter>
         </service>
 
+        <!-- Waze accessibility service — detects police/camera/accident alerts in Waze UI -->
+        <service
+            android:name=".service.WazeAccessibilityService"
+            android:exported="true"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/waze_accessibility_config" />
+        </service>
+
         <!-- Floating rail overlay service -->
         <service
             android:name=".ui.overlay.FloatingRailService"

@@ -21,10 +21,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import com.bgautoradio.BuildConfig
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -41,7 +41,7 @@ fun SettingsScreen(
     Column(modifier = Modifier.fillMaxSize()) {
         ScreenHeader(
             title    = "Настройки",
-            subtitle = "Car-Radio v1.0.0 · оптимизирано за Android head units"
+            subtitle = "Car-Radio v${BuildConfig.VERSION_NAME} · оптимизирано за Android head units"
         )
 
         LazyVerticalGrid(
@@ -133,7 +133,7 @@ fun SettingsScreen(
                 SettingsCard(title = "За приложението", titleEn = "About") {
                     Text("Bulgarian Auto Radio", color = TextPrimary, fontSize = 14.sp,
                         fontWeight = FontWeight.SemiBold)
-                    Text("v1.0.0 — производствена версия", color = TextSecondary, fontSize = 12.sp)
+                    Text("v${BuildConfig.VERSION_NAME} — производствена версия", color = TextSecondary, fontSize = 12.sp)
                     Text("Оптимизирано за Android head units", color = TextTertiary, fontSize = 12.sp)
                     Spacer(Modifier.height(4.dp))
                     Text(
@@ -347,9 +347,9 @@ private fun PermissionsCard() {
                 }
             ),
             PermItem(
-                label   = "Waze известия (Notification Listener)",
-                granted = NotificationManagerCompat.getEnabledListenerPackages(ctx).contains(pkg),
-                action  = { ctx.startActivity(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS)) }
+                label   = "Waze предупреждения (Accessibility)",
+                granted = isWazeAccessibilityEnabled(ctx),
+                action  = { ctx.startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)) }
             ),
         )
     }
@@ -394,6 +394,15 @@ private fun PermissionsCard() {
             Text("Провери отново", color = TextDisabled, fontSize = 12.sp)
         }
     }
+}
+
+private fun isWazeAccessibilityEnabled(ctx: android.content.Context): Boolean {
+    val service = "${ctx.packageName}/com.bgautoradio.service.WazeAccessibilityService"
+    val enabled = Settings.Secure.getString(
+        ctx.contentResolver,
+        Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES
+    ) ?: return false
+    return enabled.split(":").any { it.equals(service, ignoreCase = true) }
 }
 
 // ─── OTA Card ────────────────────────────────────────────────────────────────
