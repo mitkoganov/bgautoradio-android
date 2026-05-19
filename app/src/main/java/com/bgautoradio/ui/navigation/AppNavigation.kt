@@ -62,6 +62,10 @@ fun AppNavigation() {
     var pickerSlot by remember { mutableStateOf(0) }
 
     fun navigate(route: String) {
+        if (route == NavRoute.Home.route) {
+            navController.popBackStack(NavRoute.Home.route, inclusive = false)
+            return
+        }
         if (route == currentRoute) return
         navController.navigate(route) {
             popUpTo(NavRoute.Home.route) { saveState = true }
