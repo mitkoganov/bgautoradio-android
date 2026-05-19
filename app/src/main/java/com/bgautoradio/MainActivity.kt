@@ -66,8 +66,14 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        // Stop the floating rail overlay when main app is in foreground
         stopService(Intent(this, FloatingRailService::class.java))
+
+        // If a newer APK was installed (OTA) but old process is still running — restart
+        val installedCode = packageManager
+            .getPackageInfo(packageName, 0).longVersionCode.toInt()
+        if (installedCode > BuildConfig.VERSION_CODE) {
+            android.os.Process.killProcess(android.os.Process.myPid())
+        }
     }
 
     // Handles OAuth PKCE callback: bgautoradio://spotify-callback?code=...
