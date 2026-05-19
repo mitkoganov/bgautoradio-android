@@ -162,7 +162,8 @@ class OtaViewModel @Inject constructor(
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK)
         }
         context.startActivity(intent)
-        android.os.Process.killProcess(android.os.Process.myPid())
+        // Process will be killed by the system installer naturally.
+        // MY_PACKAGE_REPLACED broadcast in BootReceiver handles the restart.
     }
 
     private fun compareVersions(a: String, b: String): Int {
