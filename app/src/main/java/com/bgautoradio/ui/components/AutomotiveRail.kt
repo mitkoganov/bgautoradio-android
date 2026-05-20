@@ -37,7 +37,6 @@ val railItems = listOf(
     RailItem("home",    Icons.Default.Radio,          "В ефир"),
     RailItem("channels",Icons.Default.LibraryMusic,   "Станции"),
     RailItem("spotify", Icons.Default.LibraryMusic,   "Spotify"),
-    RailItem("apps",    Icons.Default.Apps,           "Приложения"),
 )
 
 
