@@ -82,7 +82,7 @@ fun launchWazeDriveMode(context: Context) {
         Intent(context, FloatingRailService::class.java).putExtra("drive_mode", true)
     )
 
-    // Launch Waze into the middle area after overlay is drawn
+    // Launch Waze into the middle area after overlays are fully drawn
     Handler(Looper.getMainLooper()).postDelayed({
         val intent = context.packageManager
             .getLaunchIntentForPackage("com.waze") ?: return@postDelayed
@@ -91,16 +91,17 @@ fun launchWazeDriveMode(context: Context) {
         val density = context.resources.displayMetrics.density
         val screenW = context.resources.displayMetrics.widthPixels
         val screenH = context.resources.displayMetrics.heightPixels
-        val leftPx  = (60  * density).toInt()   // after left nav overlay
-        val rightPx = (200 * density).toInt()   // before right radio overlay
+        val leftPx  = (60  * density).toInt()
+        val rightPx = (200 * density).toInt()
 
         val options = ActivityOptions.makeBasic()
-        options.launchBounds = Rect(leftPx, 0, screenW - rightPx, screenH)
+        // Windowing mode FIRST, then bounds — order matters
         runCatching {
             ActivityOptions::class.java
                 .getMethod("setLaunchWindowingMode", Int::class.javaPrimitiveType)
                 .invoke(options, 5) // WINDOWING_MODE_FREEFORM = 5
         }
+        options.launchBounds = Rect(leftPx, 0, screenW - rightPx, screenH)
         context.startActivity(intent, options.toBundle())
-    }, 250)
+    }, 500)
 }

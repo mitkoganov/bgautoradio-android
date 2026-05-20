@@ -90,9 +90,10 @@ class FloatingRailService : Service() {
     private fun showOverlay() {
         val wm = getSystemService(WINDOW_SERVICE) as WindowManager
         windowManager = wm
+        val leftPx = (60 * resources.displayMetrics.density).toInt()
 
         val params = WindowManager.LayoutParams(
-            WindowManager.LayoutParams.WRAP_CONTENT,
+            leftPx,
             WindowManager.LayoutParams.MATCH_PARENT,
             WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
             WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or
@@ -225,7 +226,7 @@ private fun OverlayRail(onNavigate: (String) -> Unit) {
         modifier = Modifier
             .width(60.dp)
             .fillMaxHeight()
-            .background(Color(0xDD0D0D1A)),
+            .background(Color(0xFF0D0D1A)),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(4.dp, Alignment.CenterVertically),
     ) {
@@ -262,7 +263,7 @@ private fun RadioOverlayPanel(pm: PlaybackManager, onStop: () -> Unit) {
         modifier = Modifier
             .width(200.dp)
             .fillMaxHeight()
-            .background(Color(0xDD0D0D1A))
+            .background(Color(0xFF0D0D1A))
             .padding(horizontal = 8.dp),
         verticalArrangement   = Arrangement.Center,
         horizontalAlignment   = Alignment.CenterHorizontally,
