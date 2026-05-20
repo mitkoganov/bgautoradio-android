@@ -1,5 +1,6 @@
 package com.bgautoradio.ui.screens.drive
 
+import android.annotation.SuppressLint
 import android.app.ActivityOptions
 import android.content.Context
 import android.content.Intent
@@ -74,6 +75,7 @@ fun DriveScreen() {
     }
 }
 
+@SuppressLint("BlockedPrivateApi")
 fun launchWazeDriveMode(context: Context) {
     if (!Settings.canDrawOverlays(context)) return
 
@@ -98,7 +100,8 @@ fun launchWazeDriveMode(context: Context) {
         // Windowing mode FIRST, then bounds — order matters
         runCatching {
             ActivityOptions::class.java
-                .getMethod("setLaunchWindowingMode", Int::class.javaPrimitiveType)
+                .getDeclaredMethod("setLaunchWindowingMode", Int::class.javaPrimitiveType)
+                .also { it.isAccessible = true }
                 .invoke(options, 5) // WINDOWING_MODE_FREEFORM = 5
         }
         options.launchBounds = Rect(leftPx, 0, screenW - rightPx, screenH)

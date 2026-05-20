@@ -14,8 +14,8 @@ android {
         applicationId = "com.bgautoradio"
         minSdk        = 26          // Android 8.0 — covers all modern head units
         targetSdk     = 35
-        versionCode   = 16
-        versionName   = "1.0.15"
+        versionCode   = 17
+        versionName   = "1.0.16"
 
         // Remote station catalog URL — override in release flavor if needed
         buildConfigField("String", "SPOTIFY_CLIENT_ID",    "\"ff8116acb06844fdae4af7ac69fe2975\"")

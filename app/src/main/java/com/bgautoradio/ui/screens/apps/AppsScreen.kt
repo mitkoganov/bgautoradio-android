@@ -1,5 +1,6 @@
 package com.bgautoradio.ui.screens.apps
 
+import android.annotation.SuppressLint
 import android.app.ActivityOptions
 import android.content.Context
 import android.content.Intent
@@ -142,14 +143,19 @@ private fun launchApp(context: Context, packageName: String) {
     }
 }
 
+@SuppressLint("BlockedPrivateApi")
 private fun launchWithBounds(context: Context, intent: Intent) {
     runCatching {
+        val dm = context.resources.displayMetrics
+        val overlayPx = (60 * dm.density).toInt()
         val options = ActivityOptions.makeBasic()
-        // Overlay rail is 60dp; at 240dpi = 90px. App starts right after it.
-        val screenWidth  = context.resources.displayMetrics.widthPixels
-        val screenHeight = context.resources.displayMetrics.heightPixels
-        val overlayPx    = (60 * context.resources.displayMetrics.density).toInt()
-        options.launchBounds = Rect(overlayPx, 0, screenWidth, screenHeight)
+        runCatching {
+            ActivityOptions::class.java
+                .getDeclaredMethod("setLaunchWindowingMode", Int::class.javaPrimitiveType)
+                .also { it.isAccessible = true }
+                .invoke(options, 5) // WINDOWING_MODE_FREEFORM = 5
+        }
+        options.launchBounds = Rect(overlayPx, 0, dm.widthPixels, dm.heightPixels)
         context.startActivity(intent, options.toBundle())
     }.onFailure {
         context.startActivity(intent)
