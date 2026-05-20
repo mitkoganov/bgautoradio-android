@@ -1,10 +1,7 @@
 package com.bgautoradio.ui.screens.apps
 
-import android.annotation.SuppressLint
-import android.app.ActivityOptions
 import android.content.Context
 import android.content.Intent
-import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.*
@@ -183,28 +180,10 @@ private fun AppCell(app: AppInfo, isDark: Boolean, onClick: () -> Unit) {
     }
 }
 
-@SuppressLint("BlockedPrivateApi")
 private fun launchInFreeform(context: Context, packageName: String) {
     val intent = context.packageManager.getLaunchIntentForPackage(packageName) ?: return
-    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-
-    val dm      = context.resources.displayMetrics
-    val screenW = dm.widthPixels
-    val screenH = dm.heightPixels
-    val leftPx  = if (RailEdgePx > 0) RailEdgePx else (115 * dm.density).toInt()
-    val topOffset = -(80 * dm.density).toInt()
-
-    runCatching {
-        val options = ActivityOptions.makeBasic()
-        ActivityOptions::class.java
-            .getDeclaredMethod("setLaunchWindowingMode", Int::class.javaPrimitiveType)
-            .also { it.isAccessible = true }
-            .invoke(options, 5)
-        options.launchBounds = Rect(leftPx, topOffset, screenW, screenH)
-        context.startActivity(intent, options.toBundle())
-    }.onFailure {
-        context.startActivity(intent)
-    }
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+    context.startActivity(intent)
 }
 
 private fun loadLauncherApps(context: Context): List<AppInfo> {
