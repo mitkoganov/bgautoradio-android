@@ -8,12 +8,16 @@ import coil.Coil
 import coil.ImageLoader
 import coil.decode.SvgDecoder
 import dagger.hilt.android.HiltAndroidApp
+import org.lsposed.hiddenapibypass.HiddenApiBypass
 
 @HiltAndroidApp
 class BulgarianAutoRadioApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            HiddenApiBypass.addHiddenApiExemptions("L")
+        }
         setupCoil()
         createNotificationChannel()
     }

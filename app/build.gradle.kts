@@ -14,8 +14,8 @@ android {
         applicationId = "com.bgautoradio"
         minSdk        = 26          // Android 8.0 — covers all modern head units
         targetSdk     = 35
-        versionCode   = 17
-        versionName   = "1.0.16"
+        versionCode   = 18
+        versionName   = "1.0.17"
 
         // Remote station catalog URL — override in release flavor if needed
         buildConfigField("String", "SPOTIFY_CLIENT_ID",    "\"ff8116acb06844fdae4af7ac69fe2975\"")
@@ -78,6 +78,9 @@ android {
 }
 
 dependencies {
+    // Hidden API bypass (needed for setLaunchWindowingMode on Android 9+)
+    implementation("org.lsposed.hiddenapibypass:hiddenapibypass:4.3")
+
     // Core
     implementation(libs.appcompat)
     implementation(libs.core.ktx)

@@ -6,6 +6,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.*
 import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.layout.positionInWindow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,7 +38,7 @@ import com.bgautoradio.ui.screens.settings.SettingsScreen
 import com.bgautoradio.ui.screens.spotify.SpotifyScreen
 import com.bgautoradio.ui.screens.stations.StationsScreen
 import com.bgautoradio.ui.screens.apps.AppsScreen
-import com.bgautoradio.ui.screens.drive.DriveScreen
+import com.bgautoradio.ui.screens.apps.RailEdgePx
 sealed class NavRoute(val route: String) {
     object Home       : NavRoute("home")
     object Channels   : NavRoute("channels")
@@ -46,7 +48,6 @@ sealed class NavRoute(val route: String) {
     object Recent     : NavRoute("recent")
     object Settings   : NavRoute("settings")
     object Apps       : NavRoute("apps")
-    object Drive      : NavRoute("drive")
 }
 
 @Composable
@@ -88,7 +89,7 @@ fun AppNavigation() {
 
         val showBackground = currentRoute in setOf(
             NavRoute.Home.route, NavRoute.Channels.route,
-            NavRoute.Spotify.route, NavRoute.Apps.route, NavRoute.Drive.route
+            NavRoute.Spotify.route, NavRoute.Apps.route
         )
         if (showBackground) {
             BackgroundImageLayer(if (isDark) darkCarTheme() else lightCarTheme())
@@ -104,6 +105,9 @@ fun AppNavigation() {
                 preset2           = presetState.preset2,
                 onPresetClick     = { slot -> presetVm.launchPreset(slot) },
                 onPresetLongClick = { slot -> pickerSlot = slot },
+                modifier          = Modifier.onGloballyPositioned { coords ->
+                    RailEdgePx = (coords.positionInWindow().x + coords.size.width).toInt()
+                },
             )
 
             Box(modifier = Modifier.weight(1f).fillMaxHeight().clipToBounds()) {
@@ -119,7 +123,6 @@ fun AppNavigation() {
                     composable(NavRoute.Recent.route)     { RecentScreen() }
                     composable(NavRoute.Settings.route) { SettingsScreen() }
                     composable(NavRoute.Apps.route)     { AppsScreen() }
-                    composable(NavRoute.Drive.route)    { DriveScreen() }
                 }
             }
         }
