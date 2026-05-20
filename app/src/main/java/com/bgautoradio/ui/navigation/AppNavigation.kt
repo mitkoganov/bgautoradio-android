@@ -71,9 +71,9 @@ fun AppNavigation() {
         }
         if (route == currentRoute) return
         navController.navigate(route) {
-            popUpTo(NavRoute.Home.route) { saveState = true }
+            popUpTo(NavRoute.Home.route) { saveState = false }
             launchSingleTop = true
-            restoreState    = true
+            restoreState    = false
         }
     }
 

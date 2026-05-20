@@ -21,7 +21,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.bgautoradio.data.preferences.AppPreferences
 import com.bgautoradio.data.repository.SpotifyRepository
 import com.bgautoradio.ui.navigation.AppNavigation
-import com.bgautoradio.ui.overlay.FloatingRailService
 import com.bgautoradio.ui.theme.AutoRadioTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -62,11 +61,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-
-    override fun onResume() {
-        super.onResume()
-        stopService(Intent(this, FloatingRailService::class.java))
     }
 
     // Handles OAuth PKCE callback: bgautoradio://spotify-callback?code=...
