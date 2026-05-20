@@ -36,6 +36,7 @@ import com.bgautoradio.ui.screens.settings.SettingsScreen
 import com.bgautoradio.ui.screens.spotify.SpotifyScreen
 import com.bgautoradio.ui.screens.stations.StationsScreen
 import com.bgautoradio.ui.screens.apps.AppsScreen
+import com.bgautoradio.ui.screens.drive.DriveScreen
 sealed class NavRoute(val route: String) {
     object Home       : NavRoute("home")
     object Channels   : NavRoute("channels")
@@ -45,6 +46,7 @@ sealed class NavRoute(val route: String) {
     object Recent     : NavRoute("recent")
     object Settings   : NavRoute("settings")
     object Apps       : NavRoute("apps")
+    object Drive      : NavRoute("drive")
 }
 
 @Composable
@@ -86,7 +88,7 @@ fun AppNavigation() {
 
         val showBackground = currentRoute in setOf(
             NavRoute.Home.route, NavRoute.Channels.route,
-            NavRoute.Spotify.route, NavRoute.Apps.route
+            NavRoute.Spotify.route, NavRoute.Apps.route, NavRoute.Drive.route
         )
         if (showBackground) {
             BackgroundImageLayer(if (isDark) darkCarTheme() else lightCarTheme())
@@ -117,6 +119,7 @@ fun AppNavigation() {
                     composable(NavRoute.Recent.route)     { RecentScreen() }
                     composable(NavRoute.Settings.route) { SettingsScreen() }
                     composable(NavRoute.Apps.route)     { AppsScreen() }
+                    composable(NavRoute.Drive.route)    { DriveScreen() }
                 }
             }
         }

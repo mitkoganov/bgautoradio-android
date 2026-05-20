@@ -67,23 +67,6 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         stopService(Intent(this, FloatingRailService::class.java))
-        restartIfOtaInstalled()
-    }
-
-    // Restart once per running version if a newer APK is installed (OTA)
-    private fun restartIfOtaInstalled() {
-        val installedCode = packageManager
-            .getPackageInfo(packageName, 0).longVersionCode.toInt()
-        if (installedCode <= BuildConfig.VERSION_CODE) return
-
-        // Key tied to THIS process's version — prevents loop even if BlueStacks
-        // restarts with the same old code (same key → same guard)
-        val prefs = getSharedPreferences("ota", MODE_PRIVATE)
-        val key = "restarted_from_${BuildConfig.VERSION_CODE}"
-        if (prefs.getBoolean(key, false)) return
-
-        prefs.edit().putBoolean(key, true).apply()
-        android.os.Process.killProcess(android.os.Process.myPid())
     }
 
     // Handles OAuth PKCE callback: bgautoradio://spotify-callback?code=...
